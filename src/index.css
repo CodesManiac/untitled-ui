@@ -9,3 +9,12 @@
     @apply font-Inter;
   }
 }
+
+@layer components {
+  .scroll {
+    @apply !scrollbar-thin  !scrollbar-track-transparent !scrollbar-thumb-gray;
+  }
+  .radio {
+    @apply form-radio focus:border-purple text-white border border-searchBorder h-5 w-5;
+  }
+}

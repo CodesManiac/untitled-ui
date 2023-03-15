@@ -5,3 +5,20 @@ export interface SidebarType {
     route: string;
 
 }
+export interface userAccountDetailsType {
+    id: number;
+    invoice: string;
+    amount: string;
+    date: string;
+    status: string;
+    noOfUsers: number;
+    users: string[];
+
+}
+export type CheckboxProps = {
+    label: string;
+    icon: string;
+    details: string;
+    checked: boolean;
+    handleChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
+};
