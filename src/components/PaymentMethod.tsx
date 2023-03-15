@@ -8,7 +8,7 @@ const PaymentMethod = () => {
   };
   console.log('User profile is', userProfile[0].email);
   return (
-    <section className='py-6'>
+    <section className=' p-6'>
       <h1 className='font-medium text-lg text-blue'>Payment method</h1>
       <p>Update your billing details and address.</p>
       <hr className='border border-lightGrey my-4' />

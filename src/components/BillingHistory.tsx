@@ -4,7 +4,7 @@ import Table from './Table';
 
 const BillingHistory = () => {
   return (
-    <section className='text-sm font-medium'>
+    <section className='p-6 text-sm font-medium'>
       <div className='flex justify-between'>
         <h1>Billing history</h1>
         <button className='flex items-center text-darkGrey bg-white shadow-input border border-searchBorder rounded-lg '>
@@ -12,7 +12,9 @@ const BillingHistory = () => {
           Download all
         </button>
       </div>
-      <Table />
+      <div className='overflow-x-auto'>
+        <Table />
+      </div>
     </section>
   );
 };

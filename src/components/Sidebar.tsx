@@ -11,7 +11,7 @@ const Sidebar = () => {
 
   return (
     <aside className='overflow-scroll h-full px-4 py-3 lg:py-6 text-darkGrey text-base font-medium scroll'>
-      <div className='mb-10'>
+      <div className='hidden md:block mb-10'>
         <img src={Logo} alt='Untitled UI' />
       </div>
 
