@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Logo, PlayButton, Search } from '../assets/icons';
+import { Button, Logo, PlayButton, Search, User } from '../assets/icons';
 import Image from '../assets/images/image.svg';
-import Avatar from '../assets/images/avatar.svg';
+
 import { navigationData, sidebarFooterData } from '../data/Data';
 
 const Sidebar = () => {
@@ -10,7 +10,7 @@ const Sidebar = () => {
   const [searchInput, setSearchInput] = useState('');
 
   return (
-    <aside className='overflow-scroll h-full px-4 py-3 lg:py-6 text-darkGrey text-base font-medium !scrollbar-thin  !scrollbar-track-transparent !scrollbar-thumb-gray'>
+    <aside className='overflow-scroll h-full px-4 py-3 lg:py-6 text-darkGrey text-base font-medium scroll'>
       <div className='mb-10'>
         <img src={Logo} alt='Untitled UI' />
       </div>
@@ -93,7 +93,7 @@ const Sidebar = () => {
       <hr className='border border-lightGrey my-8' />
 
       <div className='flex justify-between'>
-        <img src={Avatar} alt='User' />
+        <img src={User} alt='User' />
         <div className='text-sm'>
           <h4 className='text-blue'>Olivia Rhye</h4>
           <p className='font-normal text-gray'>olivia@untitledui.com</p>
