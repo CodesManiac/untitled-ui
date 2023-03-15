@@ -20,7 +20,7 @@ const CardDetails = () => {
     setVisaChecked(false);
   };
   return (
-    <section className='py-6'>
+    <section className='p-6'>
       <div className='flex flex-col md:flex-row gap-16'>
         <div>
           <h2 className='font-medium text-darkGrey'>Card details</h2>

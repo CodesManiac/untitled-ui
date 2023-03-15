@@ -7,6 +7,7 @@ import Home from './home.svg';
 import Logo from './logo.svg';
 import Mail from './mail.svg';
 import MasterCard from './master-card.svg';
+import NavMenu from './nav-menu.svg';
 import PlayButton from './play-button.svg';
 import Plus from './plus.svg';
 import Projects from './projects.svg';
@@ -26,4 +27,4 @@ import Visa from './visa.svg';
 
 
 
-export { ArrowDown, Button, Check, Dashboard, Download, Home, Logo, Mail, MasterCard, PlayButton, Plus, Projects, Reporting, Search, Settings, Support, Tasks, Users, User, User1, User2, User3, User4, User5, Visa }
+export { ArrowDown, Button, Check, Dashboard, Download, Home, Logo, Mail, MasterCard, NavMenu, PlayButton, Plus, Projects, Reporting, Search, Settings, Support, Tasks, Users, User, User1, User2, User3, User4, User5, Visa }

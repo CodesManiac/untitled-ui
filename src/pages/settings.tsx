@@ -6,10 +6,14 @@ import { tabsData } from './../data/Data';
 
 const Settings = () => {
   return (
-    <section className='p-6 text-base font-normal text-gray'>
+    <section className='text-base font-normal text-gray'>
       <div className='space-y-6'>
-        <h1 className='text-2xl md:text-3xl font-medium text-blue'>Settings</h1>
-        <p>Manage your team and preferences here.</p>
+        <div className='px-6'>
+          <h1 className='text-2xl md:text-3xl font-medium text-blue pt-6'>
+            Settings
+          </h1>
+          <p>Manage your team and preferences here.</p>
+        </div>
         <div className='flex border border-searchBorder rounded-lg overflow-x-auto scroll  drop-shadow-tabs w-full lg:w-5/6 bg-white'>
           {tabsData.map((tabs) => (
             <button
@@ -22,7 +26,7 @@ const Settings = () => {
         </div>
       </div>
       <PaymentMethod />
-      <hr className='border border-lightGrey my-4' />
+      <hr className='border border-lightGrey my-4 px-6' />
 
       <CardDetails />
       <BillingHistory />
