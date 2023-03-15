@@ -1,5 +1,8 @@
+import ArrowDown from './arrow-down.svg';
 import Button from './button.svg';
+import Check from './check.svg';
 import Dashboard from './dashboard.svg';
+import Download from './download-cloud.svg';
 import Home from './home.svg';
 import Logo from './logo.svg';
 import Mail from './mail.svg';
@@ -14,6 +17,7 @@ import Support from './support.svg';
 import Tasks from './tasks.svg';
 import Users from './users.svg';
 import User from './user.svg';
+import User1 from './user-1.svg';
 import User2 from './user-2.svg';
 import User3 from './user-3.svg';
 import User4 from './user-4.svg';
@@ -22,4 +26,4 @@ import Visa from './visa.svg';
 
 
 
-export { Button, Dashboard, Home, Logo, Mail, MasterCard, PlayButton, Plus, Projects, Reporting, Search, Settings, Support, Tasks, Users, User, User2, User3, User4, User5, Visa }
+export { ArrowDown, Button, Check, Dashboard, Download, Home, Logo, Mail, MasterCard, PlayButton, Plus, Projects, Reporting, Search, Settings, Support, Tasks, Users, User, User1, User2, User3, User4, User5, Visa }

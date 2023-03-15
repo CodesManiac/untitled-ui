@@ -1,4 +1,5 @@
 import React from 'react';
+import BillingHistory from '../components/BillingHistory';
 import CardDetails from '../components/CardDetails';
 import PaymentMethod from '../components/PaymentMethod';
 import { tabsData } from './../data/Data';
@@ -24,6 +25,7 @@ const Settings = () => {
       <hr className='border border-lightGrey my-4' />
 
       <CardDetails />
+      <BillingHistory />
     </section>
   );
 };

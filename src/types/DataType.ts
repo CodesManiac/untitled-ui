@@ -22,3 +22,7 @@ export type CheckboxProps = {
     checked: boolean;
     handleChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 };
+export interface TableProps {
+    data: userAccountDetailsType[];
+}
+export type SelectedRows = userAccountDetailsType[];

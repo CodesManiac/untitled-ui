@@ -15,7 +15,8 @@ module.exports = {
       searchBorder: '#D0D5DD',
       checkBorder: '#D6BBFB',
       checkWhite: '#F9F5FF',
-
+      green: '#027A48',
+      lightGreen: '#ECFDF3',
       deepPurple: '#53389E',
       deepViolet: '#9E77ED',
       transparent: 'transparent',
