@@ -8,6 +8,12 @@
   html {
     @apply font-Inter;
   }
+  th {
+    @apply px-4 py-4;
+  }
+  td {
+    @apply px-4 pb-2 pt-8;
+  }
 }
 
 @layer components {

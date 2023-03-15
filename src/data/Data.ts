@@ -1,4 +1,4 @@
-import { Dashboard, Home, Projects, Reporting, Settings, Support, Tasks, Users, User, User2, User3, User4, User5 } from '../assets/icons'
+import { Dashboard, Home, Projects, Reporting, Settings, Support, Tasks, Users, User1, User2, User3, User4, User5 } from '../assets/icons'
 import { SidebarType, userAccountDetailsType } from '../types/DataType'
 
 
@@ -86,7 +86,7 @@ export const userAccountDetails: userAccountDetailsType[] = [
         date: 'Dec 1, 2022',
         status: 'Paid',
         noOfUsers: 7,
-        users: [User, User2, User3, User4, User5]
+        users: [User1, User2, User3, User4, User5]
 
     },
     {
@@ -96,7 +96,7 @@ export const userAccountDetails: userAccountDetailsType[] = [
         date: 'Nov 1, 2022',
         status: 'Paid',
         noOfUsers: 6,
-        users: [User, User2, User3, User4, User5]
+        users: [User1, User2, User3, User4, User5]
     },
     {
         id: 3,
@@ -105,7 +105,7 @@ export const userAccountDetails: userAccountDetailsType[] = [
         date: 'Oct 1, 2022',
         status: 'Paid',
         noOfUsers: 5,
-        users: [User, User2, User3, User4, User5]
+        users: [User1, User2, User3, User4, User5]
     },
     {
         id: 4,
@@ -114,7 +114,7 @@ export const userAccountDetails: userAccountDetailsType[] = [
         date: 'Sep 1, 2022',
         status: 'Paid',
         noOfUsers: 3,
-        users: [User, User2, User3]
+        users: [User1, User2, User3]
     },
     {
         id: 5,
@@ -123,7 +123,7 @@ export const userAccountDetails: userAccountDetailsType[] = [
         date: 'Aug 1, 2022',
         status: 'Paid',
         noOfUsers: 4,
-        users: [User, User2, User3, User4]
+        users: [User1, User2, User3, User4]
     },
     {
         id: 6,
@@ -132,7 +132,7 @@ export const userAccountDetails: userAccountDetailsType[] = [
         date: 'Jul 1, 2022',
         status: 'Paid',
         noOfUsers: 4,
-        users: [User, User2, User3, User4]
+        users: [User1, User2, User3, User4]
     },
     {
         id: 7,
@@ -141,7 +141,7 @@ export const userAccountDetails: userAccountDetailsType[] = [
         date: 'Jun 1, 2022',
         status: 'Paid',
         noOfUsers: 4,
-        users: [User, User2, User3]
+        users: [User1, User2, User3]
     },
 ]
 
